@@ -1,0 +1,35 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+#resultado{
+    text-align: right;
+    border: 2px solid #0000ff;
+    border-radius: 10%;
+    margin: 3px;
+    padding: 3px;
+}
+#actual{
+    text-align: right;
+    border: 2px solid #c0c0c0;
+    border-radius: 10%;
+    margin: 3px;
+    padding: 3px;
+}
+.botonCalc{
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #0000ff;
+}
+.botonOp{
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: hsl(203, 49%, 76%);
+    color: hsl(0, 0%, 4%);
+}
